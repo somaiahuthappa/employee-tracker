@@ -17,7 +17,7 @@
   - [Usage](#usage)
   - [License](#license)
   - [Contributors](#contributors)
-  - [Tests](#tests)
+  - [Link](#link)
   - [Questions](#questions)
 
   -------------------
@@ -43,7 +43,7 @@
 
   -------------------
 
-  ## Links
+  ## Link
  [Video Link](https://www.youtube.com/watch?v=8pm9f838nAI)
 
   -------------------
