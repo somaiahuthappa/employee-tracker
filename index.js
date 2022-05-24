@@ -273,7 +273,14 @@ const updateEmployeeRolePrompt = () => {
 
 
 const startPrompt = () => {
+    console.log(`
+        =========================
+             EMPLOYEE TRACKER 
+        =========================`);
+
     inquirer.prompt(
+
+        
        
         [
         {
