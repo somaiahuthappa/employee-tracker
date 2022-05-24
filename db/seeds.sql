@@ -1,27 +1,31 @@
-INSERT INTO department (name)
+INSERT INTO department (id, name)
 VALUES
-('Electrical'),
-('Hardware'),
-('Automotive')
+(1, 'Electrical'),
+(2, 'Hardware'),
+(3, 'Automotive');
 
-INSERT INTO role (title, salary, department_id)
+COMMIT;
+
+INSERT INTO roles (id, title, salary, department_id)
 VALUES
-('Electrical Sales Manager', '75000.00', 1),
-('Hardware Sales Manager', '80000.00', 2),
-('Automotive Sales Manager', '77000.00', 3),
-('Electrical Sales Rep', '45000.00', 1),
-('Hardware Sales Rep', '50000.00', 2),
-('Automotive Sales Rep', '47000', 3);
+(1, 'Electrical Sales Manager', '75000.00', 1),
+(2, 'Hardware Sales Manager', '80000.00', 2),
+(3, 'Automotive Sales Manager', '77000.00', 3),
+(4, 'Electrical Sales Rep', '45000.00', 1),
+(5, 'Hardware Sales Rep', '50000.00', 2),
+(6, 'Automotive Sales Rep', '47000.', 3);
 
-INSERT INTO employee (first_name, second_name, role_id, manager_id)
+COMMIT;
+
+INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
 VALUES 
-('Mary', 'Davis', 1, NULL),
-('Sam', 'Smith', 2, NULL),
-('Dave', 'Brown', 3, NULL),
-('Anne', 'Barrow', 4, 1),
-('Dylan', 'Gray', 5, 2),
-('Hector', 'Black', 6, 3),
-('Leona', 'Lane', 6, 3),
-('John', 'Roe', 4, 1),
-('Morgan', 'Rex', 5, 2);
+(1, 'Mary', 'Davis', 1, NULL),
+(2, 'Sam', 'Smith', 2, NULL),
+(3, 'Dave', 'Brown', 3, NULL),
+(4, 'Anne', 'Barrow', 4, 1),
+(5, 'Dylan', 'Gray', 5, 2),
+(6, 'Hector', 'Black', 6, 3),
+(7, 'Leona', 'Lane', 6, 3),
+(8, 'John', 'Roe', 4, 1),
+(9,'Morgan', 'Rex', 5, 2);
 
