@@ -44,7 +44,7 @@
   -------------------
 
   ## Links
-  ![Video Link](https://www.youtube.com/watch?v=8pm9f838nAI)
+ [Video Link](https://www.youtube.com/watch?v=8pm9f838nAI)
 
   -------------------
 
